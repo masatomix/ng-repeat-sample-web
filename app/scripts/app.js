@@ -17,7 +17,7 @@ angular
                 views: {
                     containerView: {
                         templateUrl: 'views/about.html',
-                        controller: 'AboutCtrl'
+                        controller: 'AboutCtrl as aboutCtrl'
                     }
                 }
             })
